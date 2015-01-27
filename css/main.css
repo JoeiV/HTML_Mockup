@@ -1,31 +1,28 @@
 body {
-	font-family: Kalimati, Verdana, sans-serif;
-	color: #666;
+    font-family: Verdana, sans-serif;
+    color: #666;
     width: 100%;
-	margin: auto;
+    margin: auto;
 }
 
 
 .container {
-	margin-left: 0;
-	margin: auto;
+    margin: auto;
 }
 
 
 /* ===== Header =================*/
 
 .col-md-12 {
-	text-align: center;
-	padding-top: 28px;
-	padding-left: 10px;
+    text-align: center;
+    padding-top: 28px;
 }
 
 
 h1 {
-	font-family: "Lucidia Grande", sans-serif;
-	font-size: 48px;
-	text-align: center;
-	margin-left: 38px;
+    font-family: "Lucidia Grande", sans-serif;
+    font-size: 48px;
+    text-align: center;
     padding-bottom: 15px;
 }
 
@@ -33,30 +30,26 @@ h1 {
 
 
 .row {
-	width: 100%;
     vertical-align: top;
 }
 
 
 /* ===== First Column =================*/
 .col-md-5 {
-    width: 40%;
     float: left;
 }
 
 
 .img {
-	width: 375px;
-	height: 375px;
+    width: 375px;
+    height: 375px;
 }
 
 
 .box {
     width: 375px;
     height: 223px;
-    padding-top: 42px;
-    padding-right: 32px;
-    padding-left: 42px;
+    padding: 42px 32px 0 42px;
     border: solid 1px #ccc;
     margin-top: 32px;
 }
@@ -64,18 +57,16 @@ h1 {
 
 h2 {
     color: #f07c17;
-	font-size: 24px;
+    font-size: 24px;
     font-weight: bold;
-	text-align: left;
+    text-align: left;
     margin-top: 0;
 }
 
 
 #featuresTitle {
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-left: -10px;
-    margin-top: -20px;
+    padding: 10px 0 20px 0;
+    margin: -20px 0 0 -10px;
 }
 
 
@@ -94,10 +85,7 @@ li {
 /* ===== Second Column =================*/
 .col-md-7 {
     margin-right: -30px;
-    margin-left: 0;
     vertical-align: top;
-    width: 60%;
-    float: right;
 }
 
 
@@ -108,7 +96,7 @@ li {
 
 
 p {
-	font-weight: lighter;
+    font-weight: lighter;
     text-align: left;
     line-height: 2;
     font-size: 16px;
